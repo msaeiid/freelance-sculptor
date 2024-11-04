@@ -1,0 +1,345 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-19 00:01+0330\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\blogs\models.py:14
+msgid "Images"
+msgstr "Images"
+
+#: .\blogs\models.py:18 .\educations\models.py:14 .\experiences\models.py:13
+#: .\galleries\models.py:14 .\galleries\models.py:33 .\languages\models.py:12
+#: .\reviews\models.py:13 .\services\models.py:15 .\skills\models.py:15
+msgid "Title"
+msgstr "Title"
+
+#: .\blogs\models.py:21 .\services\models.py:23
+msgid "Body"
+msgstr "Body"
+
+#: .\blogs\models.py:35 .\profiles\models.py:125
+msgid "Blog"
+msgstr "Blog"
+
+#: .\blogs\models.py:36
+msgid "Blogs"
+msgstr "Blogs"
+
+#: .\contacts\models.py:11
+msgid "Name"
+msgstr "Name"
+
+#: .\contacts\models.py:12
+msgid "Email"
+msgstr "Email"
+
+#: .\contacts\models.py:16
+msgid "Subject"
+msgstr "Subject"
+
+#: .\contacts\models.py:20
+msgid "Message"
+msgstr "Message"
+
+#: .\contacts\models.py:23
+msgid "Is read"
+msgstr "Is read"
+
+#: .\contacts\models.py:29 .\profiles\models.py:128
+msgid "Contact"
+msgstr "Contact"
+
+#: .\contacts\models.py:30
+msgid "Contacts"
+msgstr "Contacts"
+
+#: .\educations\models.py:17
+msgid "University name"
+msgstr "University name"
+
+#: .\educations\models.py:19 .\experiences\models.py:18
+msgid "Description"
+msgstr "Description"
+
+#: .\educations\models.py:22 .\experiences\models.py:20
+msgid "Start date"
+msgstr "Start date"
+
+#: .\educations\models.py:23
+msgid "Finish date"
+msgstr "Finish date"
+
+#: .\educations\models.py:24 .\experiences\models.py:22
+msgid "Until now"
+msgstr "Until now"
+
+#: .\educations\models.py:33
+msgid "Education"
+msgstr "Education"
+
+#: .\educations\models.py:34
+msgid "Educations"
+msgstr "Educations"
+
+#: .\experiences\models.py:16
+msgid "Company name"
+msgstr "Company name"
+
+#: .\experiences\models.py:21
+msgid "Finish Date"
+msgstr "Finish Date"
+
+#: .\experiences\models.py:32
+msgid "Experience"
+msgstr "Experience"
+
+#: .\experiences\models.py:33
+msgid "Experiences"
+msgstr "Experiences"
+
+#: .\galleries\models.py:24
+msgid "Gallery Category"
+msgstr "Gallery Category"
+
+#: .\galleries\models.py:25
+msgid "Gallery Categories"
+msgstr "Gallery Categories"
+
+#: .\galleries\models.py:39
+msgid "Category"
+msgstr "Category"
+
+#: .\galleries\models.py:42
+msgid "Image"
+msgstr "Image"
+
+#: .\galleries\models.py:51
+msgid "Gallery"
+msgstr "Gallery"
+
+#: .\galleries\models.py:52
+msgid "Galleries"
+msgstr "Galleries"
+
+#: .\languages\models.py:14
+msgid "code"
+msgstr "code"
+
+#: .\languages\models.py:22
+msgid "Language"
+msgstr "Language"
+
+#: .\languages\models.py:23
+msgid "Languages"
+msgstr "Languages"
+
+#: .\portfolio\rest_api\baseModel.py:10
+msgid "Created at"
+msgstr "Created at"
+
+#: .\portfolio\rest_api\baseModel.py:16
+msgid "Created by"
+msgstr "Created by"
+
+#: .\portfolio\rest_api\baseModel.py:19
+msgid "Updated at"
+msgstr "Updated at"
+
+#: .\portfolio\rest_api\baseModel.py:25 .\profiles\models.py:81
+msgid "Updated by"
+msgstr "Updated by"
+
+#: .\portfolio\rest_api\baseModel.py:30 .\profiles\models.py:137
+msgid "Profile"
+msgstr "Profile"
+
+#: .\portfolio\settings.py:169
+msgid "English"
+msgstr "English"
+
+#: .\portfolio\settings.py:170
+msgid "Farsi"
+msgstr "Farsi"
+
+#: .\portfolio\settings.py:171
+msgid "Arabic"
+msgstr "Arabic"
+
+#: .\profiles\models.py:21
+msgid "Home page Title"
+msgstr "Home page Title"
+
+#: .\profiles\models.py:25
+msgid "About me title"
+msgstr "About me title"
+
+#: .\profiles\models.py:28
+msgid "Summary"
+msgstr "Summary"
+
+#: .\profiles\models.py:32
+msgid "Degree"
+msgstr "Degree"
+
+#: .\profiles\models.py:36
+msgid "Address"
+msgstr "Address"
+
+#: .\profiles\models.py:41
+msgid "Experience Period"
+msgstr "Experience Period"
+
+#: .\profiles\models.py:49
+msgid "User"
+msgstr "User"
+
+#: .\profiles\models.py:54
+msgid "Home image"
+msgstr "Home image"
+
+#: .\profiles\models.py:58
+msgid "Video"
+msgstr "Video"
+
+#: .\profiles\models.py:63
+msgid "About image"
+msgstr "About image"
+
+#: .\profiles\models.py:69
+msgid "Cv"
+msgstr "Cv"
+
+#: .\profiles\models.py:73
+msgid "Phone"
+msgstr "Phone"
+
+#: .\profiles\models.py:78
+msgid "Birthday"
+msgstr "Birthday"
+
+#: .\profiles\models.py:87
+msgid "Freelance"
+msgstr "Freelance"
+
+#: .\profiles\models.py:93
+msgid "Tweeter"
+msgstr "Tweeter"
+
+#: .\profiles\models.py:97
+msgid "Facebook"
+msgstr "Facebook"
+
+#: .\profiles\models.py:101
+msgid "Linked in"
+msgstr "Linked in"
+
+#: .\profiles\models.py:105
+msgid "Instagram"
+msgstr "Instagram"
+
+#: .\profiles\models.py:110
+msgid "Quality"
+msgstr "Quality"
+
+#: .\profiles\models.py:113 .\skills\models.py:33
+msgid "Skill"
+msgstr "Skill"
+
+#: .\profiles\models.py:116 .\services\models.py:42
+msgid "Service"
+msgstr "Service"
+
+#: .\profiles\models.py:119
+msgid "Portfolio"
+msgstr "Portfolio"
+
+#: .\profiles\models.py:122 .\reviews\models.py:39
+msgid "Review"
+msgstr "Review"
+
+#: .\profiles\models.py:138
+msgid "Profiles"
+msgstr "Profiles"
+
+#: .\profiles\views.py:68
+msgid "message"
+msgstr "message"
+
+#: .\reviews\models.py:17
+msgid "Profession"
+msgstr "Profession"
+
+#: .\reviews\models.py:20
+msgid "Comment"
+msgstr "Comment"
+
+#: .\reviews\models.py:26
+msgid "Avatar"
+msgstr "Avatar"
+
+#: .\reviews\models.py:30
+msgid "Show"
+msgstr "Show"
+
+#: .\reviews\models.py:40
+msgid "Reviews"
+msgstr "Reviews"
+
+#: .\services\models.py:20
+msgid "Short description"
+msgstr "Short description"
+
+#: .\services\models.py:30
+msgid "Icon"
+msgstr "Icon"
+
+#: .\services\models.py:43
+msgid "Services"
+msgstr "Services"
+
+#: .\skills\models.py:20
+msgid "Percentage"
+msgstr "Percentage"
+
+#: .\skills\models.py:24
+msgid "Color"
+msgstr "Color"
+
+#: .\skills\models.py:34
+msgid "Skills"
+msgstr "Skills"
+
+#: .\templates\base.html:10
+msgid "Sculptor, Set Designer, and Rock Maker"
+msgstr "Sculptor, Set Designer, and Rock Maker"
+
+#: .\templates\base.html:15
+msgid "Sculptor, Rock Maker, Set Designer, Portfolio, Hasan Kakavand"
+msgstr "Sculptor, Rock Maker, Set Designer, Portfolio, Hasan Kakavand"
+
+#: .\templates\base.html:16
+msgid ""
+"Portfolio of Hasan Kakavand, a professional sculptor, artificial rock maker, "
+"and set designer."
+msgstr ""
+"Portfolio of Hasan Kakavand, a professional sculptor, artificial rock maker, "
+"and set designer."
+
+#: .\templates\base.html:19
+msgid "Hasan Kakavand - Sculptor and Designer"
+msgstr "Hasan Kakavand - Sculptor and Designer"

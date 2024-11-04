@@ -1,0 +1,16 @@
+export const paths_dict = {
+  blog: "api/blog/",
+  contact: "api/contact/",
+  contact_count: "api/contact/contact_count/",
+  education: "api/education/",
+  experience: "api/experience/",
+  gallery: "api/gallery/gallery/",
+  category: "api/gallery/category/",
+  profile: "api/profile/",
+  review: "api/review/",
+  service: "api/service/",
+  skill: "api/skill/",
+  language: "api/language/",
+  update_language: "api/language/change_language",
+  show_or_hide_section: "api/profile/ShowOrHideSection/",
+};

@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+
+
+
+
+{% block title %}
+Qualities
+{% endblock title %}
+
+  
+    
+
+{% block content %}
+
+<div id="qualities" data-username="{{user}}" data-canEdit={{is_authenticated}} data-loginUrl={{loginUrl}} data-language={{ language_code }}></div>
+{% endblock content %}

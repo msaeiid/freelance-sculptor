@@ -1,0 +1,345 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-19 00:01+0330\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: .\blogs\models.py:14
+msgid "Images"
+msgstr "تصاویر"
+
+#: .\blogs\models.py:18 .\educations\models.py:14 .\experiences\models.py:13
+#: .\galleries\models.py:14 .\galleries\models.py:33 .\languages\models.py:12
+#: .\reviews\models.py:13 .\services\models.py:15 .\skills\models.py:15
+msgid "Title"
+msgstr "عنوان"
+
+#: .\blogs\models.py:21 .\services\models.py:23
+msgid "Body"
+msgstr "محتوا"
+
+#: .\blogs\models.py:35 .\profiles\models.py:125
+msgid "Blog"
+msgstr "وبلاگ"
+
+#: .\blogs\models.py:36
+msgid "Blogs"
+msgstr "وبلاگ‌ها"
+
+#: .\contacts\models.py:11
+msgid "Name"
+msgstr "نام"
+
+#: .\contacts\models.py:12
+msgid "Email"
+msgstr "ایمیل"
+
+#: .\contacts\models.py:16
+msgid "Subject"
+msgstr "موضوع"
+
+#: .\contacts\models.py:20
+msgid "Message"
+msgstr "پیام"
+
+#: .\contacts\models.py:23
+msgid "Is read"
+msgstr "خوانده شده است"
+
+#: .\contacts\models.py:29 .\profiles\models.py:128
+msgid "Contact"
+msgstr "تماس"
+
+#: .\contacts\models.py:30
+msgid "Contacts"
+msgstr "تماس‌ها"
+
+#: .\educations\models.py:17
+msgid "University name"
+msgstr "نام دانشگاه"
+
+#: .\educations\models.py:19 .\experiences\models.py:18
+msgid "Description"
+msgstr "توضیحات"
+
+#: .\educations\models.py:22 .\experiences\models.py:20
+msgid "Start date"
+msgstr "تاریخ شروع"
+
+#: .\educations\models.py:23
+msgid "Finish date"
+msgstr "تاریخ پایان"
+
+#: .\educations\models.py:24 .\experiences\models.py:22
+msgid "Until now"
+msgstr "تا کنون"
+
+#: .\educations\models.py:33
+msgid "Education"
+msgstr "تحصیلات"
+
+#: .\educations\models.py:34
+msgid "Educations"
+msgstr "تحصیلات"
+
+#: .\experiences\models.py:16
+msgid "Company name"
+msgstr "نام شرکت"
+
+#: .\experiences\models.py:21
+msgid "Finish Date"
+msgstr "تاریخ پایان"
+
+#: .\experiences\models.py:32
+msgid "Experience"
+msgstr "تجربه"
+
+#: .\experiences\models.py:33
+msgid "Experiences"
+msgstr "تجربیات"
+
+#: .\galleries\models.py:24
+msgid "Gallery Category"
+msgstr "دسته‌بندی گالری"
+
+#: .\galleries\models.py:25
+msgid "Gallery Categories"
+msgstr "دسته‌بندی‌های گالری"
+
+#: .\galleries\models.py:39
+msgid "Category"
+msgstr "دسته‌بندی"
+
+#: .\galleries\models.py:42
+msgid "Image"
+msgstr "تصویر"
+
+#: .\galleries\models.py:51
+msgid "Gallery"
+msgstr "گالری"
+
+#: .\galleries\models.py:52
+msgid "Galleries"
+msgstr "گالری‌ها"
+
+#: .\languages\models.py:14
+msgid "code"
+msgstr "کد"
+
+#: .\languages\models.py:22
+msgid "Language"
+msgstr "زبان"
+
+#: .\languages\models.py:23
+msgid "Languages"
+msgstr "زبان‌ها"
+
+#: .\portfolio\rest_api\baseModel.py:10
+msgid "Created at"
+msgstr "ایجاد شده در"
+
+#: .\portfolio\rest_api\baseModel.py:16
+msgid "Created by"
+msgstr "ایجاد شده توسط"
+
+#: .\portfolio\rest_api\baseModel.py:19
+msgid "Updated at"
+msgstr "به‌روزرسانی شده در"
+
+#: .\portfolio\rest_api\baseModel.py:25 .\profiles\models.py:81
+msgid "Updated by"
+msgstr "به‌روزرسانی شده توسط"
+
+#: .\portfolio\rest_api\baseModel.py:30 .\profiles\models.py:137
+msgid "Profile"
+msgstr "پروفایل"
+
+#: .\portfolio\settings.py:169
+msgid "English"
+msgstr "انگلیسی"
+
+#: .\portfolio\settings.py:170
+msgid "Farsi"
+msgstr "فارسی"
+
+#: .\portfolio\settings.py:171
+msgid "Arabic"
+msgstr "عربی"
+
+#: .\profiles\models.py:21
+msgid "Home page Title"
+msgstr "عنوان صفحه اصلی"
+
+#: .\profiles\models.py:25
+msgid "About me title"
+msgstr "عنوان درباره من"
+
+#: .\profiles\models.py:28
+msgid "Summary"
+msgstr "خلاصه"
+
+#: .\profiles\models.py:32
+msgid "Degree"
+msgstr "مدرک"
+
+#: .\profiles\models.py:36
+msgid "Address"
+msgstr "آدرس"
+
+#: .\profiles\models.py:41
+msgid "Experience Period"
+msgstr "دوره تجربه"
+
+#: .\profiles\models.py:49
+msgid "User"
+msgstr "کاربر"
+
+#: .\profiles\models.py:54
+msgid "Home image"
+msgstr "تصویر صفحه اصلی"
+
+#: .\profiles\models.py:58
+msgid "Video"
+msgstr "ویدیو"
+
+#: .\profiles\models.py:63
+msgid "About image"
+msgstr "تصویر درباره"
+
+#: .\profiles\models.py:69
+msgid "Cv"
+msgstr "رزومه"
+
+#: .\profiles\models.py:73
+msgid "Phone"
+msgstr "تلفن"
+
+#: .\profiles\models.py:78
+msgid "Birthday"
+msgstr "تاریخ تولد"
+
+#: .\profiles\models.py:87
+msgid "Freelance"
+msgstr "فریلنس"
+
+#: .\profiles\models.py:93
+msgid "Tweeter"
+msgstr "توییتر"
+
+#: .\profiles\models.py:97
+msgid "Facebook"
+msgstr "فیسبوک"
+
+#: .\profiles\models.py:101
+msgid "Linked in"
+msgstr "لینکدین"
+
+#: .\profiles\models.py:105
+msgid "Instagram"
+msgstr "اینستاگرام"
+
+#: .\profiles\models.py:110
+msgid "Quality"
+msgstr "کیفیت"
+
+#: .\profiles\models.py:113 .\skills\models.py:33
+msgid "Skill"
+msgstr "مهارت"
+
+#: .\profiles\models.py:116 .\services\models.py:42
+msgid "Service"
+msgstr "خدمات"
+
+#: .\profiles\models.py:119
+msgid "Portfolio"
+msgstr "نمونه‌کار"
+
+#: .\profiles\models.py:122 .\reviews\models.py:39
+msgid "Review"
+msgstr "نظر"
+
+#: .\profiles\models.py:138
+msgid "Profiles"
+msgstr "پروفایل‌ها"
+
+#: .\profiles\views.py:68
+msgid "message"
+msgstr "پیام"
+
+#: .\reviews\models.py:17
+msgid "Profession"
+msgstr "حرفه"
+
+#: .\reviews\models.py:20
+msgid "Comment"
+msgstr "نظر"
+
+#: .\reviews\models.py:26
+msgid "Avatar"
+msgstr "آواتار"
+
+#: .\reviews\models.py:30
+msgid "Show"
+msgstr "نمایش"
+
+#: .\reviews\models.py:40
+msgid "Reviews"
+msgstr "نظرات"
+
+#: .\services\models.py:20
+msgid "Short description"
+msgstr "توضیحات کوتاه"
+
+#: .\services\models.py:30
+msgid "Icon"
+msgstr "آیکون"
+
+#: .\services\models.py:43
+msgid "Services"
+msgstr "خدمات"
+
+#: .\skills\models.py:20
+msgid "Percentage"
+msgstr "درصد"
+
+#: .\skills\models.py:24
+msgid "Color"
+msgstr "رنگ"
+
+#: .\skills\models.py:34
+msgid "Skills"
+msgstr "مهارت‌ها"
+
+#: .\templates\base.html:10
+msgid "Sculptor, Set Designer, and Rock Maker"
+msgstr "مجسمه ساز، طراح صحنه و صخره ساز"
+
+#: .\templates\base.html:15
+msgid "Sculptor, Rock Maker, Set Designer, Portfolio, Hasan Kakavand"
+msgstr "مجسمه ساز, صخره ساز, طراح صحنه, نمونه کارها, حسن کاکاوند"
+
+#: .\templates\base.html:16
+msgid ""
+"Portfolio of Hasan Kakavand, a professional sculptor, artificial rock maker, "
+"and set designer."
+msgstr ""
+"نمونه‌ کارهای حسن کاکاوند، مجسمه‌ساز حرفه‌ای، سازنده سنگ‌های مصنوعی و طراح صحنه."
+
+#: .\templates\base.html:19
+msgid "Hasan Kakavand - Sculptor and Designer"
+msgstr "حسن کاکاوند - مجسمه‌ساز و طراح"

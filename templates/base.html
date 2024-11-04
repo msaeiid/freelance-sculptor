@@ -1,0 +1,59 @@
+{% load static %}
+{% load i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+<!DOCTYPE html>
+<html lang="{{ LANGUAGE_CODE }}">
+<head>
+    <meta charset="utf-8">
+
+    <title>
+        {% block title %}{% endblock title %} | {% trans 'Sculptor, Set Designer, and Rock Maker' %}
+    </title>
+
+    <!-- Meta Information -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="keywords" content="{% trans 'Sculptor, Rock Maker, Set Designer, Portfolio, Hasan Kakavand' %}">
+    <meta name="description" content="{% trans 'Portfolio of Hasan Kakavand, a professional sculptor, artificial rock maker, and set designer.' %}">
+    <meta name="author" content="{% block author%}{% endblock author%}">
+    <meta name="robots" content="index, follow">
+    <meta name="title" content="{% trans 'Hasan Kakavand - Sculptor and Designer' %}">
+    <meta name="language" content="{{ LANGUAGE_CODE }}">
+    <meta name="revisit-after" content="1 day">
+
+
+    <link rel="alternate" href="{{ default_domain }}/en/" hreflang="en">
+    <link rel="alternate" href="{{ default_domain }}/fa/" hreflang="fa">
+    <link rel="alternate" href="{{ default_domain }}/ar/" hreflang="ar">
+
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'assets/apple-touch-icon-BBrOI2b8.png' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'assets/favicon-32x32-CFmAFBBM.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'assets/favicon-16x16-CXIGWaBG.png' %}">
+    <link rel="manifest" href="{% static 'assets/site-BwHFeIBa.webmanifest' %}">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <script type="module" crossorigin src="{% static 'assets/index-EqRQC4fJ.js' %}"></script>
+    <link rel="stylesheet" crossorigin href="{% static 'assets/index-Nha8FUMt.css' %}">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+
+    {% block content %}
+    <div id="root"></div>
+    {% endblock content %}
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

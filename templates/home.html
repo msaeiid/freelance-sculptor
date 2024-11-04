@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+
+
+
+
+{% block title %}
+{{user.profile.first_name}} {{user.profile.last_name}}
+{% endblock title %}
+
+{% block author%}{{user.profile.first_name}} {{user.profile.last_name}}{% endblock author%}
+
+
+
+
+{% block content %}
+
+<div id="root" data-username="{{user}}"
+data-canEdit={{is_authenticated}}
+data-loginUrl={{loginUrl}}
+data-language={{ language_code }}
+data-domain={{default_domain}}
+data-developer-url={{developer_url}}
+data-developer-name={{developer_name}}></div>
+{% endblock content %}

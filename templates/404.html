@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Oops!
+{% endblock title %}
+
+{% block content %}
+<div class="container my-5 fade-in">
+  <div class="row justify-content-center">
+    <div class="col-md-6 text-center">
+      <h1 class="display-4 text-primary font-weight-bold mb-4 slide-down">Oops!</h1>
+      <p class="lead mb-4 slide-up">Sorry for the problem that happened. Let's forget about it and</p>
+      <a href="{% url 'home' %}" class="btn btn-primary btn-lg slide-up"> Go to Home Page</a>
+    </div>
+  </div>
+</div>
+{% endblock content %}
